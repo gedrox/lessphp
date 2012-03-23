@@ -1,0 +1,14 @@
+.test (@one: 0) {
+	margin: @one;
+}
+
+.test (@one: 0, @two: 0) {
+	padding: @one @two;
+}
+
+a {
+	.test(0);
+}
+b {
+	.test(0, 0);
+}
