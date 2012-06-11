@@ -3,10 +3,10 @@
   font-weight:bold;
 }
 body #window {
+  line-height:0;
   border-radius:10px;
   font-size:20px;
   font-weight:bold;
-  line-height:30px;
 }
 #bundle .button {
   display:block;
@@ -40,6 +40,7 @@ body b { color:blue; }
   bar:100 land;
 }
 #hello { cool:one two three cool; }
+#hello-important { cool:one two three cool !important; }
 #world { cool:"world"; }
 #another {
   things:red blue green;

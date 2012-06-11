@@ -49,6 +49,7 @@ Here is a block comment
 @bbb: bbb;
 // make sure the opening selector isn't too greedy
 .cool {.mix("@{aaa}, @{bbb}")}
+.cool();
 
 .cool("{hello");
 .cool('{hello');
@@ -75,4 +76,9 @@ Here is a block comment
 .rad {
 	.hi;
 }
+
+
+@page :left { margin-left: 4cm; }
+@page :right { margin-left: 3cm; }
+@page { margin: 2cm }
 
